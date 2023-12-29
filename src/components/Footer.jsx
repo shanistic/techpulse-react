@@ -22,7 +22,7 @@ const Footer = () => {
           >
             LinkedIn
           </a>
-          <a href="www.github.com/shanistic" target={"blank"}>
+          <a href="https://github.com/shanistic" target={"blank"}>
             Github
           </a>
         </div>
