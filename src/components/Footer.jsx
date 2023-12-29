@@ -1,22 +1,34 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
   return (
     <footer>
-        <div>
+      <div>
         <h1>TECHPULSE</h1>
         <p>@shanistic</p>
-        </div>
+      </div>
+      <div>
+        <h5>Follow us</h5>
         <div>
-            <h5>Follow us</h5>
-            <div>
-                <a href="www.facebook.com/Shani" target={"blank"}>Facebook</a>
-                <a href="www.instagram.com/shanistic" target={"blank"}>Instagram</a>
-                <a href="www.github.com/shanistic" target={"blank"}>Github</a>
-            </div>
+          <a
+            href="https://www.facebook.com/profile.php?id=100012336426519&mibextid=ZbWKwL"
+            target={"blank"}
+          >
+            Facebook
+          </a>
+          <a
+            href="https://www.linkedin.com/in/muhammad-usman-940b2a274"
+            target={"blank"}
+          >
+            LinkedIn
+          </a>
+          <a href="www.github.com/shanistic" target={"blank"}>
+            Github
+          </a>
         </div>
+      </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
